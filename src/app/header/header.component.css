@@ -1,4 +1,15 @@
 .navigations{background-color: chocolate;}
-.navigations a{text-align:center;border-right:1px solid #FFF;color:#DDD;margin-bottom:1px}
+.navigations a{text-align:center;border-right:1px solid #FFF;color:#DDD;margin-bottom:1px;position:relative;text-decoration:none;}
 .navigations a:hover{background-color:silver;color:chocolate}
-.navigations a.active{border-bottom:1px solid #000;background-color:silver;color:chocolate}
+.navigations a.active{background-color:silver;color:chocolate;}
+.navigations a.active .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+     border-bottom: 7px solid #FFF;
+     position:absolute;
+     bottom:-2px;
+     left:45%;
+     display:block;
+  }
