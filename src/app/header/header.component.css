@@ -1,0 +1,4 @@
+.navigations{background-color: chocolate;}
+.navigations a{text-align:center;border-right:1px solid #FFF;color:#DDD;margin-bottom:1px}
+.navigations a:hover{background-color:silver;color:chocolate}
+.navigations a.active{border-bottom:1px solid #000;background-color:silver;color:chocolate}

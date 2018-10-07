@@ -1,0 +1,28 @@
+.invalid-feedback{color:red;padding:7px;display:block;}
+.RegisterAds{text-shadow:3px 2px 3px lawngreen; 
+-webkit-animation: rounded 10s infinite; /* Safari 4.0 - 8.0 */
+    animation: rounded 10s infinite; 
+    background:#ddd;
+    color:chocolate;
+    position:relative;
+    left:40px;
+    top:0px;
+   text-align:center;
+   border-radius:50%;
+   height:60px;
+   padding-top:-30px;
+    }
+@keyframes rounded{
+    0%   {top: 0px; left: -40px; background: red;color:#FFF;}
+    25%  {top: 30px; left: 40px; background: blue;color:orange}
+    50%  {top: 160px; left: -40px; background: yellow;color:red}
+    75%  {top: 200px; left: 40px; background: green;color:#FFF}
+    100% {top: 0px; left: -40px; background: red;color:green}
+}
+#loader-box {
+    overflow: hidden;
+    position: relative;
+    margin: 20% auto 40px;
+    width: 150px;
+    height: 150px;
+}

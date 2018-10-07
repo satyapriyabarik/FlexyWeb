@@ -1,0 +1,35 @@
+<h2>All Employees World wide</h2>
+<div class="row">
+<div class="col-lg-5 col-11 empBox" *ngFor="let em of alldata;let i=index" id={{i}} draggable ="true" >
+  <table width="100%" class="empT" >
+    <tr>
+      <td>Id:</td>
+      <td><a routerLink="/detail/{{em.id}}">{{em.id}}</a></td>
+    </tr>
+    <tr>
+        <td>Name:</td>
+        <td>{{em.name}}</td>
+      </tr>
+      <tr>
+          <td>DOB:</td>
+          <td>{{em.dateofBirth | date:fullDate}}</td>
+      </tr>
+      <tr>
+          <td>Country:</td>
+          <td>{{em.country}}</td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td>{{em.address}}</td>
+          </tr>
+          <tr>
+              <td>Zip Code:</td>
+              <td>{{em.pinno}}</td>
+            </tr>
+            <tr>
+                <td>Mobile No:</td>
+                <td>{{em.mobileno}}</td>
+              </tr>
+  </table>
+</div>
+</div>

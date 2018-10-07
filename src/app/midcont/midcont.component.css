@@ -1,0 +1,3 @@
+.empBox{margin:5px;background:silver;padding:10px;border-radius:10px;box-shadow: silver 2px 3px 2px}
+.empT tr td{width:50%;vertical-align: top}
+.empT tr td:first-child{font-weight:bold;}

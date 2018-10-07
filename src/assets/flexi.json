@@ -1,0 +1,35 @@
+[{
+"id":"in123" ,   
+"name":"Kripalu Singh",
+"dateofBirth":"01-29-1999",
+"country":"India",
+"address":"603, Shafire square, New Delhi",
+"pinno":"450078",
+"mobileno":9156789034
+},
+{
+"id":"pk456" ,   
+"name":"Ashwaddin Owasi",
+"dateofBirth":"12-06-1980",
+"country":"Pakistan",
+"address":"12/20, Gip Colony, Peshavar",
+"pinno":"120089",
+"mobileno":9356789034
+},
+{
+"id":"ch123" ,   
+"name":"Jagmohan Dalmia",
+"dateofBirth":"04-09-2000",
+"country":"China",
+"address":"67, Yaman kul, Wangai",
+"pinno":"555000",
+"mobileno":9886789034
+},
+{"id":"dn123" ,   
+"name":"Matias Ekstarm",
+"dateofBirth":"12-08-1944",
+"country":"Denmark",
+"address":"789, Mimara Query, Copenhegen",
+"pinno":"760089",
+"mobileno":9337945678
+}]
